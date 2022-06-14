@@ -101,4 +101,9 @@ recipes.addShaped(<storagedrawers:upgrade_storage:1>,
     [<storagedrawers:upgrade_template>, <minecraft:iron_ingot>, <storagedrawers:upgrade_template>],
     [<minecraft:iron_ingot>, <storagedrawers:upgrade_template>, <minecraft:iron_ingot>]]);
 
+recipes.addShaped(<storagedrawers:upgrade_template> * 2,
+    [[<minecraft:planks>, <minecraft:string>, <minecraft:stick>],
+    [<minecraft:planks>, <minecraft:stick>, <minecraft:string>],
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
+
 //2nd Chapter Magic and Resources

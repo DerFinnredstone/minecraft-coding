@@ -47,7 +47,5 @@ recipes.addShapeless(<storagedrawers:customdrawers:3> * 2,
     [<storagedrawers:customdrawers:1>]);
 
 //Upgrade
-recipes.addShapeless(<storagedrawers:upgrade_template>,
-    []);
 
 //2nd Chapter Magic and Resources
