@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	shape: "octagon",
+	dependencies: [
+		"1d9afc34",
+		"d0a29509"
+	],
+	tasks: [{
+		uid: "bb81a34e",
+		type: "item",
+		items: [{
+			item: "ultimatecobblegen:cobblegenerator"
+		}]
+	}]
+}

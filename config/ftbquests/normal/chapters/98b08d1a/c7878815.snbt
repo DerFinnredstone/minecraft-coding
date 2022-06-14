@@ -1,0 +1,17 @@
+{
+	title: "Unlock Milestone Farming and eating stuff",
+	x: 5.5d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"c4bd806e"
+	],
+	tasks: [{
+		uid: "4b35926d",
+		type: "checkmark",
+		title: "Eating Stuff"
+	}]
+}

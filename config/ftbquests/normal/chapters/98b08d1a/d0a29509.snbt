@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "The recipe was 9 pebble to 4 cobbelstone for me are better.",
+	dependencies: [
+		"10ce2397"
+	],
+	tasks: [{
+		uid: "576d05c9",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 21"
+		}],
+		count: 81L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	icon: "minecraft:sapling",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "circle",
+	tasks: [{
+		uid: "bcbdb8cc",
+		type: "checkmark",
+		title: "New beginning",
+		icon: "minecraft:sapling"
+	},
+	{
+		uid: "75ec8429",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 16L
+	}]
+}

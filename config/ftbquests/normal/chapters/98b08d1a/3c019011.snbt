@@ -1,0 +1,16 @@
+{
+	title: "Unlock Milestone First Storage",
+	x: 3.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"1d9afc34"
+	],
+	tasks: [{
+		uid: "b86529f0",
+		type: "checkmark"
+	}]
+}

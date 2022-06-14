@@ -1,0 +1,33 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	shape: "pentagon",
+	tasks: [{
+		uid: "8b86279a",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	},
+	{
+		uid: "b6359131",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_seeds"
+		}]
+	},
+	{
+		uid: "b298ad3f",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_seeds"
+		}]
+	},
+	{
+		uid: "51f681ad",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot_seeds"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	tasks: [{
+		uid: "13aad850",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

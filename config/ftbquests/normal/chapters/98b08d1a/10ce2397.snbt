@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	shape: "diamond",
+	dependencies: [
+		"03bb4c88"
+	],
+	tasks: [{
+		uid: "00769460",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	},
+	{
+		uid: "fb7200dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extendedcrafting:handheld_table"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

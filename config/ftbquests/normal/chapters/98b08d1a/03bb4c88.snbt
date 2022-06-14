@@ -1,0 +1,41 @@
+{
+	title: "Bone Meal",
+	icon: "minecraft:dye 1 15",
+	x: 0.0d,
+	y: 1.5d,
+	description: "So can you craft bone meal",
+	text: [
+		""
+	],
+	dependencies: [
+		"be34403f"
+	],
+	tasks: [{
+		uid: "8aebef4c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:pestleandmortar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "84331d68",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}],
+		count: 5L
+	},
+	{
+		uid: "2918f263",
+		type: "item",
+		items: [{
+			item: "minecraft:apple"
+		}],
+		count: 2L
+	}]
+}

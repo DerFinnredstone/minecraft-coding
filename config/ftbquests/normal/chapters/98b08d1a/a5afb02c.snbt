@@ -1,0 +1,17 @@
+{
+	title: "Unlock Milestone Astral Sorcery",
+	x: 5.5d,
+	y: -1.0d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"e0201bbe"
+	],
+	tasks: [{
+		uid: "d28b30f5",
+		type: "checkmark",
+		title: "Unlock Astral Sorcery"
+	}]
+}

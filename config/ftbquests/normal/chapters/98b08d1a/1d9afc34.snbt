@@ -1,0 +1,41 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	shape: "pentagon",
+	dependencies: [
+		"10ce2397",
+		"be34403f"
+	],
+	tasks: [{
+		uid: "57650642",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	},
+	{
+		uid: "8ec2de19",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "5d06a2b8",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}]
+	}]
+}

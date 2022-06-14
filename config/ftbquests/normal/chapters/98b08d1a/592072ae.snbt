@@ -1,0 +1,16 @@
+{
+	title: "Unlock Milestone Resource",
+	x: 5.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"627d7c34"
+	],
+	tasks: [{
+		uid: "99b9a50a",
+		type: "checkmark"
+	}]
+}

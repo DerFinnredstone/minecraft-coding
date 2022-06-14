@@ -1,0 +1,43 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	shape: "rsquare",
+	dependencies: [
+		"10ce2397"
+	],
+	tasks: [{
+		uid: "bb647664",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 1"
+		}]
+	},
+	{
+		uid: "368d175d",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	},
+	{
+		uid: "698b16a8",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 2"
+		}]
+	},
+	{
+		uid: "56d1f89c",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "f693884a",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	}]
+}
