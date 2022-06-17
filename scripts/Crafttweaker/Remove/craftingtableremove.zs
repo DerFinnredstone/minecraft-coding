@@ -18,6 +18,7 @@ recipes.remove(<extendedcrafting:table_advanced>);
 recipes.remove(<extendedcrafting:table_basic>);
 recipes.remove(<extendedcrafting:table_elite>);
 recipes.remove(<extendedcrafting:table_ultimate>);
+recipes.remove(<extendedcrafting:material:8>);
 
 //Botania
 recipes.removeShapeless(<minecraft:cobblestone>, [<ore:pebble>,<ore:pebble>,<ore:pebble>,<ore:pebble>]);

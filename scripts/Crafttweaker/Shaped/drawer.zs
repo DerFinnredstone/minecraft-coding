@@ -33,36 +33,67 @@ recipes.addShaped(<storagedrawers:basicdrawers>.withTag({material: "dark_oak"}),
     [null, <minecraft:chest>, null],
     [<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>]]);
 
-//2x2  Drawers
+//1x2  Drawers
 recipes.addShaped(<storagedrawers:basicdrawers:1>.withTag({material: "oak"}),
-    [[<minecraft:log>, <minecraft:chest>, <minecraft:log>],
+    [[<minecraft:log>, <storagedrawers:basicdrawers>.withTag({material: "oak"}), <minecraft:log>],
     [<minecraft:log>, <minecraft:log>, <minecraft:log>],
-    [<minecraft:log>, <minecraft:chest>, <minecraft:log>]]);
+    [<minecraft:log>, <storagedrawers:basicdrawers>.withTag({material: "oak"}), <minecraft:log>]]);
 
 recipes.addShaped(<storagedrawers:basicdrawers:1>.withTag({material: "spruce"}),
-    [[<minecraft:log:1>, <minecraft:chest>, <minecraft:log:1>],
+    [[<minecraft:log:1>, <storagedrawers:basicdrawers>.withTag({material: "spruce"}), <minecraft:log:1>],
     [<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>],
-    [<minecraft:log:1>, <minecraft:chest>, <minecraft:log:1>]]);
+    [<minecraft:log:1>, <storagedrawers:basicdrawers>.withTag({material: "spruce"}), <minecraft:log:1>]]);
 
 recipes.addShaped(<storagedrawers:basicdrawers:1>.withTag({material: "birch"}),
-    [[<minecraft:log:2>, <minecraft:chest>, <minecraft:log:2>],
+    [[<minecraft:log:2>, <storagedrawers:basicdrawers>.withTag({material: "birch"}), <minecraft:log:2>],
     [<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>],
-    [<minecraft:log:2>, <minecraft:chest>, <minecraft:log:2>]]);
+    [<minecraft:log:2>, <storagedrawers:basicdrawers>.withTag({material: "birch"}), <minecraft:log:2>]]);
 
 recipes.addShaped(<storagedrawers:basicdrawers:1>.withTag({material: "jungle"}),
-    [[<minecraft:log:3>, <minecraft:chest>, <minecraft:log:3>],
+    [[<minecraft:log:3>, <storagedrawers:basicdrawers>.withTag({material: "jungle"}), <minecraft:log:3>],
     [<minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>],
-    [<minecraft:log:3>, <minecraft:chest>, <minecraft:log:3>]]);
+    [<minecraft:log:3>, <storagedrawers:basicdrawers>.withTag({material: "jungle"}), <minecraft:log:3>]]);
 
 recipes.addShaped(<storagedrawers:basicdrawers:1>.withTag({material: "acacia"}),
-    [[<minecraft:log2>, <minecraft:chest>, <minecraft:log2>],
+    [[<minecraft:log2>, <storagedrawers:basicdrawers>.withTag({material: "acacia"}), <minecraft:log2>],
     [<minecraft:log2>, <minecraft:log2>, <minecraft:log2>],
-    [<minecraft:log2>, <minecraft:chest>, <minecraft:log2>]]);
+    [<minecraft:log2>, <storagedrawers:basicdrawers>.withTag({material: "acacia"}), <minecraft:log2>]]);
 
 recipes.addShaped(<storagedrawers:basicdrawers:1>.withTag({material: "dark_oak"}),
-    [[<minecraft:log2:1>, <minecraft:chest>, <minecraft:log2:1>],
+    [[<minecraft:log2:1>, <storagedrawers:basicdrawers>.withTag({material: "dark_oak"}), <minecraft:log2:1>],
     [<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>],
-    [<minecraft:log2:1>, <minecraft:chest>, <minecraft:log2:1>]]);
+    [<minecraft:log2:1>, <storagedrawers:basicdrawers>.withTag({material: "dark_oak"}), <minecraft:log2:1>]]);
+
+//2x2 Drawer
+recipes.addShaped(<storagedrawers:basicdrawers:2>.withTag({material: "oak"}),
+    [[<storagedrawers:basicdrawers>.withTag({material: "oak"}), <minecraft:log>, <storagedrawers:basicdrawers>.withTag({material: "oak"})],
+    [<minecraft:log>, <minecraft:log>, <minecraft:log>],
+    [<storagedrawers:basicdrawers>.withTag({material: "oak"}), <minecraft:log>, <storagedrawers:basicdrawers>.withTag({material: "oak"})]]);
+
+recipes.addShaped(<storagedrawers:basicdrawers:2>.withTag({material: "spruce"}),
+    [[<storagedrawers:basicdrawers>.withTag({material: "spruce"}), <minecraft:log:1>, <storagedrawers:basicdrawers>.withTag({material: "spruce"})],
+    [<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>],
+    [<storagedrawers:basicdrawers>.withTag({material: "spruce"}), <minecraft:log:1>, <storagedrawers:basicdrawers>.withTag({material: "spruce"})]]);
+
+recipes.addShaped(<storagedrawers:basicdrawers:2>.withTag({material: "birch"}),
+    [[<storagedrawers:basicdrawers>.withTag({material: "birch"}), <minecraft:log:2>, <storagedrawers:basicdrawers>.withTag({material: "birch"})],
+    [<minecraft:log:2>, <minecraft:log:2>, <minecraft:log:2>],
+    [<storagedrawers:basicdrawers>.withTag({material: "birch"}), <minecraft:log:2>, <storagedrawers:basicdrawers>.withTag({material: "birch"})]]);
+
+recipes.addShaped(<storagedrawers:basicdrawers:2>.withTag({material: "jungle"}),
+    [[<storagedrawers:basicdrawers>.withTag({material: "jungle"}), <minecraft:log:3>, <storagedrawers:basicdrawers>.withTag({material: "jungle"})],
+    [<minecraft:log:3>, <minecraft:log:3>, <minecraft:log:3>],
+    [<storagedrawers:basicdrawers>.withTag({material: "jungle"}), <minecraft:log:3>, <storagedrawers:basicdrawers>.withTag({material: "jungle"})]]);
+
+recipes.addShaped(<storagedrawers:basicdrawers:2>.withTag({material: "acacia"}),
+    [[<storagedrawers:basicdrawers>.withTag({material: "acacia"}), <minecraft:log2:1>, <storagedrawers:basicdrawers>.withTag({material: "acacia"})],
+    [<minecraft:log2>, <minecraft:log2>, <minecraft:log2>],
+    [<storagedrawers:basicdrawers>.withTag({material: "acacia"}), <minecraft:log2:1>, <storagedrawers:basicdrawers>.withTag({material: "acacia"})]]);
+
+recipes.addShaped(<storagedrawers:basicdrawers:2>.withTag({material: "dark_oak"}),
+    [[<storagedrawers:basicdrawers>.withTag({material: "dark_oak"}), <minecraft:log2:1>, <storagedrawers:basicdrawers>.withTag({material: "dark_oak"})],
+    [<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>],
+    [<storagedrawers:basicdrawers>.withTag({material: "dark_oak"}), <minecraft:log2:1>, <storagedrawers:basicdrawers>.withTag({material: "dark_oak"})]]);
 
 //Trim
 recipes.addShaped(<storagedrawers:trim>,

@@ -1,8 +1,8 @@
-/backups
-/journeymap
-/logs
-/screenshots
-/resourcepacks
-/resources
-/patchouli_books
-/downloads
+backups/
+journeymap/
+logs/
+screenshots/
+resourcepacks/
+resources/
+patchouli_books/
+downloads/
