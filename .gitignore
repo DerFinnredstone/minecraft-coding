@@ -1,3 +1,4 @@
+astralsorcery/
 backups/
 journeymap/
 logs/
@@ -6,3 +7,5 @@ resourcepacks/
 resources/
 patchouli_books/
 downloads/
+saves/Test
+saves/*.zip
