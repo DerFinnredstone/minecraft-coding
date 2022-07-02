@@ -2,13 +2,13 @@
 	title: "Bone Meal",
 	icon: "minecraft:dye 1 15",
 	x: 0.0d,
-	y: 1.5d,
+	y: 4.0d,
 	description: "So can you craft bone meal",
 	text: [
 		""
 	],
 	dependencies: [
-		"be34403f"
+		"10ce2397"
 	],
 	tasks: [{
 		uid: "8aebef4c",

@@ -1,2 +1,3 @@
 # minecraft-coding
- Minecraft Modpack
+ This is a Minecraft Coding Hardcore Modpack for all players they have got Minecraft.
+ 

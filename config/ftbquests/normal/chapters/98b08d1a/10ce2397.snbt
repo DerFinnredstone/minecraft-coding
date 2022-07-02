@@ -3,7 +3,7 @@
 	y: 3.0d,
 	shape: "diamond",
 	dependencies: [
-		"03bb4c88"
+		"be34403f"
 	],
 	tasks: [{
 		uid: "00769460",
