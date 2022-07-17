@@ -86,11 +86,15 @@ key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
 key_keybind.baublesinventory:0
-key_key.ftbultimine:43
+key_key.conarm.toggle_helm.desc:34
+key_key.conarm.toggle_chest.desc:35
+key_key.conarm.toggle_leg.desc:36
+key_key.ftbultimine:41
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:0
 key_key.ftbmoney.shop:0
+key_neat.keybind.toggle:0
 key_key.jei.toggleOverlay:0
 key_key.jei.focusSearch:0
 key_key.jei.toggleCheatMode:0
@@ -104,10 +108,13 @@ key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.toggle_focus.desc:15
 key_nei.options.keys.gui.botania_corporea_request:46
-key_key.cofh.multimode:0
-key_overloaded.key.noclip:47
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
+key_key.cofh.multimode:0
+key_key.immersiveengineering.magnetEquip:31
+key_key.immersiveengineering.chemthrowerSwitch:0
+key_overloaded.key.noclip:47
+key_key.taiga.alt_action:29
 key_key.pixelglasses:0
 key_key.journeymap.zoom_in:0
 key_key.journeymap.zoom_out:0
@@ -142,3 +149,4 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+key_key.ftbultimine_settings:47
