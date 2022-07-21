@@ -1,87 +1,42 @@
-{
-	"block_pools":
-	[
-		{
-			"name": "clay",
-			"type":
-			{
-				"type": "block",
-				"name": "botania:biomestonea",
-				"meta": 6
-			},
-			"clicktype": "rightclick",
-			"properties":
-			[
-				{
-					"type": "require_item_list",
-					"items": 
-					[
-						{
-							"name": "contenttweaker:ironwood_wand_one"
-						}
-					]
-				},
-				{
-					"type": "swing_hand"
-				}
-			],
-			"drops":
-			[
-				{
-					"name": "minecraft:clay_ball",
-					"amount": "1",
-					"properties":
-					[
-						{
-							"type": "set_random_size",
-							"minValue": "0",
-							"maxValue": "2"
-						}
-					]
-				}
-			]
-
-		},
-		{
-			"name": "boneshards",
-			"type":
-			{
-				"type": "block",
-				"name": "botania:altgrass",
-				"meta": 4
-			},
-			"clicktype": "rightclick",
-			"properties":
-			[
-				{
-					"type": "require_item_list",
-					"items": 
-					[
-						{
-							"name": "contenttweaker:ironwood_wand_one"
-						}
-					]
-				},
-				{
-					"type": "swing_hand"
-				}
-			],
-			"drops":
-			[
-				{
-					"name": "contenttweaker:boneshard",
-					"amount": "1",
-					"chance": "60",
-					"properties":
-					[
-						{
-							"type": "set_random_size",
-							"minValue": "0",
-							"maxValue": "2"
-						}
-					]
-				}
-			]
-		}
-	]
-}
+{"block_pools":[
+{"name": "boneshards",
+"type":
+{"type": "block",
+"name": "minecraft:leaves",
+"meta": 4},
+"clicktype": "rightclick",
+"properties":[{
+"type": "require_item_list",
+"items":[{
+"name": "contenttweaker:ironwood_wand_one"}
+]},
+{"type": "swing_hand"}],
+"drops":[
+{"name": "contenttweaker:boneshard",
+"amount": "5",
+"chance": "20",
+"properties":
+[{"type": "set_random_size",
+"minValue": "0",
+"maxValue": "5"}]},
+{"name": "contenttweaker:boneshard",
+"amount": "4",
+"chance": "30",
+"properties":
+[{"type": "set_random_size",
+"minValue": "0",
+"maxValue": "5"}]},
+{"name": "contenttweaker:boneshard",
+"amount": "3",
+"chance": "40",
+"properties":
+[{"type": "set_random_size",
+"minValue": "0",
+"maxValue": "5"}]},
+{"name": "contenttweaker:boneshard",
+"amount": "2",
+"chance": "50",
+"properties":
+[{"type": "set_random_size",
+"minValue": "0",
+"maxValue": "5"}]}]}]}
