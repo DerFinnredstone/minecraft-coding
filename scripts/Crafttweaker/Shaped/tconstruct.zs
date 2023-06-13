@@ -4,15 +4,9 @@
 
 //Searedbrick
 recipes.addShaped(<tconstruct:seared:3>,
-[[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
-[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
-
-//Pattern
-recipes.addShaped(<tconstruct:pattern> * 2,
-    [[<minecraft:stick>, <ore:plankWood>, <minecraft:stick>],
-    [<ore:plankWood>, <minecraft:stick>, <ore:plankWood>],
-    [<minecraft:stick>, <ore:plankWood>, <minecraft:stick>]]);
+    [[<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
+    [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>],
+    [<tconstruct:materials>, <tconstruct:materials>, <tconstruct:materials>]]);
 
 //Crafting Station
 recipes.addShaped(<tconstruct:tooltables>,
